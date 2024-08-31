@@ -94,16 +94,7 @@ function Navbar() {
                 Kontak
               </Link>
             </li>
-            {!isLoggedIn ? (
-              <li>
-                <Link
-                  to="/login"
-                  className="block bg-white text-teal-600 font-bold border border-teal-600 px-4 py-2 rounded hover:bg-teal-600 hover:text-white transition md:inline-block"
-                >
-                  Login
-                </Link>
-              </li>
-            ) : (
+            {isLoggedIn && (
               <li>
                 <button
                   onClick={handleLogout}
