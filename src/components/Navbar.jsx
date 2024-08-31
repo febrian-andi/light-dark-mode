@@ -113,7 +113,7 @@ function Navbar() {
                 </button>
               </li>
             )}
-            <div className="flex items-center">
+            <div className="flex items-center mt-4 md:mt-0">
               <label
                 htmlFor="theme-toggle"
                 className="relative inline-flex items-center cursor-pointer"
